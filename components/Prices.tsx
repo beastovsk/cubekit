@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { toast } from "sonner";
 
 const Prices = () => {
-	const plans = [
+	const plans: any[] = [
 		{
 			name: "Free",
 			posts: "3 posts/week",
