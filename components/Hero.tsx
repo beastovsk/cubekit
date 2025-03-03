@@ -4,7 +4,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Link from "next/link";
 import Image from "next/image";
-import { toast } from "sonner";
+// import { toast } from "sonner";
 
 const Hero = () => {
 	return (
@@ -69,10 +69,11 @@ const Hero = () => {
 						{/* <Link href="#" target="_blank"> */}
 						<MagicButton
 							handleClick={() =>
-								toast("I apologize", {
-									description:
-										"Improving the service right now",
-								})
+								// toast("I apologize", {
+								// 	description:
+								// 		"Improving the service right now",
+								// })
+								alert("Improving the service right now")
 							}
 							icon={<FaLocationArrow className="mr-2" />}
 							title="Test Your Content Now"

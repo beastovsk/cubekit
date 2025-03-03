@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
-import { Toaster } from "@/components/ui/sonner";
+// import { Toaster } from "@/components/ui/sonner";
 
 import "./globals.css";
 import { ThemeProvider } from "./provider";
@@ -44,7 +44,7 @@ export default function RootLayout({
           gtag('config', 'G-40SNJ5SY2Z', { page_path: window.location.pathname });
         `}
 				</Script>
-				<Toaster />
+				{/* <Toaster /> */}
 			</body>
 		</html>
   );

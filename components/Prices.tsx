@@ -1,7 +1,7 @@
 import Link from "next/link";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
-import { toast } from "sonner";
+// import { toast } from "sonner";
 
 const Prices = () => {
 	const plans: any[] = [
@@ -152,9 +152,10 @@ const Prices = () => {
 			<div className="z-[999999]">
 				<MagicButton
 					handleClick={() =>
-						toast("I apologize", {
-							description: "Improving the service right now",
-						})
+						// toast("I apologize", {
+						// 	description: "Improving the service right now",
+						// })
+						alert("Improving the service right now")
 					}
 					icon={<FaLocationArrow className="mr-2" />}
 					title="Test Your Content Now"
