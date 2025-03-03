@@ -1,4 +1,7 @@
+'use client'
+
 import { gridItems } from "@/data";
+import dynamic from "next/dynamic";
 import { BentoGrid, BentoGridItem } from "./ui/BentoGrid";
 
 const Grid = () => {

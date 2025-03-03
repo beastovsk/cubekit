@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
