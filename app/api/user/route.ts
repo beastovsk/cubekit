@@ -20,13 +20,7 @@ export async function POST(req: Request) {
 
     const user = await db.user.findUnique({
       where: { email },
-      select: {
-        email: true,
-        name: true,
-        id: true,
-        plan: true,
-        tryCounter: true,
-      }
+      select: {},
     });
 
     if (!user) {
