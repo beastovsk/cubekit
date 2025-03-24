@@ -2,7 +2,14 @@
 
 @plugin "tailwindcss-animate";
 
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
 @custom-variant dark (&:is(.dark *));
+
 
 @theme inline {
   --color-background: var(--background);
